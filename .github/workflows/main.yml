@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Nan Jing Weather Report
           body: file://result.html
-          to: ${{ secrets.RECEIVER }}
+          to: ${{ secrets.MAIL_RECEIVER }}
           from: GitHub Actions
           content_type: text/html
